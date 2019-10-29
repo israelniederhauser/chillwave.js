@@ -1,8 +1,8 @@
-function chillWaveString(myString) {
+function chillWaveString(string) {
     let newString = '';
 
-    for (let i = 0; i < myString.length; i++) {
-        let char = myString[i];
+    for (let i = 0; i < string.length; i++) {
+        let char = string[i];
         if (char === ' ') {
             newString += '   ';
         } else {
