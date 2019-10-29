@@ -4,7 +4,7 @@ function makeChillWaveString(string) {
     for (let i = 0; i < string.length; i++) {
         let char = string[i];
         if (char === ' ') {
-            chillWaveString += '   ';
+            chillWaveString += '  ';
         } else {
             chillWaveString += char + ' ';
         }
