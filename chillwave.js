@@ -1,14 +1,14 @@
-function chillWaveString(string) {
-    let newString = '';
+function makeChillWaveString(string) {
+    let chillWaveString = '';
 
     for (let i = 0; i < string.length; i++) {
         let char = string[i];
         if (char === ' ') {
-            newString += '   ';
+            chillWaveString += '   ';
         } else {
-            newString += char + ' ';
+            chillWaveString += char + ' ';
         }
     }
 
-    return newString;
+    return chillWaveString;
 }
