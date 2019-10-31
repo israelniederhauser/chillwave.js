@@ -1,4 +1,4 @@
-const convert = (str) => str.split('').join(' ');
+const convert = str => str.split('').join(' ');
 /**
  * 
  * @param {String} str | The string to be converted
